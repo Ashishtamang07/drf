@@ -20,6 +20,6 @@ from restapi import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('stu/<int:id>', views.student_detail),
-    path('stu/', views.student_list),
+    # path('stu/<int:id>', views.student_detail),
+    path('stu/', views.student_create),
 ]
